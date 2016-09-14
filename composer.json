@@ -1,0 +1,14 @@
+{
+    "name": "wajox/yii2-account",
+    "description": "Yii2 Acount Extension Module",
+    "type": "extension",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Ildar Usmanov",
+            "email": "wajox@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
