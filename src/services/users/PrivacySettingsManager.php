@@ -1,7 +1,7 @@
 <?php
-namespace app\services\users;
+namespace wajox\yii2account\services\users;
 
-use app\models\UserSettings;
+use wajox\yii2account\models\UserSettings;
 use wajox\yii2base\components\base\Object;
 
 class PrivacySettingsManager extends Object
@@ -42,34 +42,34 @@ class PrivacySettingsManager extends Object
     public static function getAccessList()
     {
         return [
-            self::ACCESS_NOBODY => \Yii::t('app/attributes', 'User Access List Nobody'),
-            self::ACCESS_ALL => \Yii::t('app/attributes', 'User Access List All'),
-            self::ACCESS_USERS => \Yii::t('app/attributes', 'User Access List Users'),
-            self::ACCESS_CONTACTS => \Yii::t('app/attributes', 'User Access List Contacts'),
+            self::ACCESS_NOBODY => self::t('app/attributes', 'User Access List Nobody'),
+            self::ACCESS_ALL => self::t('app/attributes', 'User Access List All'),
+            self::ACCESS_USERS => self::t('app/attributes', 'User Access List Users'),
+            self::ACCESS_CONTACTS => self::t('app/attributes', 'User Access List Contacts'),
         ];
     }
 
     public static function getAccessListAdd()
     {
         return [
-            self::ACCESS_NOBODY => \Yii::t('app/attributes', 'User Access List Nobody'),
-            self::ACCESS_USERS => \Yii::t('app/attributes', 'User Access List Users'),
+            self::ACCESS_NOBODY => self::t('app/attributes', 'User Access List Nobody'),
+            self::ACCESS_USERS => self::t('app/attributes', 'User Access List Users'),
         ];
     }
 
     public static function getAccessListMessage()
     {
         return [
-            self::ACCESS_NOBODY => \Yii::t('app/attributes', 'User Access List Nobody'),
-            self::ACCESS_USERS => \Yii::t('app/attributes', 'User Access List Users'),
+            self::ACCESS_NOBODY => self::t('app/attributes', 'User Access List Nobody'),
+            self::ACCESS_USERS => self::t('app/attributes', 'User Access List Users'),
         ];
     }
 
     public static function getAccessListSearch()
     {
         return [
-            self::ACCESS_NOBODY => \Yii::t('app/attributes', 'User Access List Nobody'),
-            self::ACCESS_ALL => \Yii::t('app/attributes', 'User Access List All'),
+            self::ACCESS_NOBODY => self::t('app/attributes', 'User Access List Nobody'),
+            self::ACCESS_ALL => self::t('app/attributes', 'User Access List All'),
         ];
     }
 

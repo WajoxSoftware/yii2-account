@@ -1,8 +1,8 @@
 <?php
-namespace app\services\wajox_software;
+namespace wajox\yii2account\services\wajox_software;
 
 use wajox\yii2base\components\base\object;
-use app\models\UserNetworkAccount;
+use wajox\yii2account\models\UserNetworkAccount;
 
 class NetworkAccountsManager extends Object
 {

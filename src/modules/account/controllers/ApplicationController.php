@@ -1,5 +1,5 @@
 <?php
-namespace app\modules\account\controllers;
+namespace wajox\yii2account\modules\account\controllers;
 
 class ApplicationController extends \wajox\yii2base\controllers\AuthenticatedController
 {

@@ -1,12 +1,12 @@
 <?php
-namespace app\modules\account\controllers;
+namespace wajox\yii2account\modules\account\controllers;
 
 use yii\filters\AccessControl;
 use yii\base\ActionEvent;
 use yii\web\NotFoundHttpException;
-use app\models\User;
-use app\services\users\PrivacySettingsManager;
-use app\services\message\ContactsManager;
+use wajox\yii2account\models\User;
+use wajox\yii2account\services\users\PrivacySettingsManager;
+use wajox\yii2account\services\message\ContactsManager;
 
 class DefaultController extends ApplicationController
 {

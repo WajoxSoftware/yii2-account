@@ -1,11 +1,11 @@
 <?php
-namespace app\modules\account\controllers;
+namespace wajox\yii2account\modules\account\controllers;
 
-use app\models\User;
-use app\models\UserSettings;
-use app\models\form\PasswordForm;
-use app\models\UploadedImage;
-use app\services\users\UsersManager;
+use wajox\yii2account\models\User;
+use wajox\yii2account\models\UserSettings;
+use wajox\yii2account\models\form\PasswordForm;
+use wajox\yii2account\models\UploadedImage;
+use wajox\yii2account\services\users\UsersManager;
 use wajox\yii2base\services\uploads\UploadsManager;
 
 class SettingsController extends ApplicationController

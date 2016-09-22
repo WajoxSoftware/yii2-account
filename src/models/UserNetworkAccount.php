@@ -1,5 +1,5 @@
 <?php
-namespace app\models;
+namespace wajox\yii2account\models;
 
 class UserNetworkAccount extends \wajox\yii2base\components\db\ActiveRecord
 {

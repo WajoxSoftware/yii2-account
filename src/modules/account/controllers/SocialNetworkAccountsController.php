@@ -1,7 +1,7 @@
 <?php
-namespace app\modules\account\controllers;
+namespace wajox\yii2account\modules\account\controllers;
 
-use app\services\wajox_software\NetworkAccountsManager;
+use wajox\yii2account\services\wajox_software\NetworkAccountsManager;
 
 class SocialNetworkAccountsController extends ApplicationController
 {

@@ -2,7 +2,7 @@
 <?php
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
-use app\services\users\PrivacySettingsManager;
+use wajox\yii2account\services\users\PrivacySettingsManager;
 
 ?>
 
